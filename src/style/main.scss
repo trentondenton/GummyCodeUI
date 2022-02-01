@@ -1,0 +1,56 @@
+html {
+  font-size: 62.5%
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Open Sans";
+  color: #808080;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-tap-highlight-color: transparent;
+}
+
+//Etc
+@import './pagetitle.scss';
+@import './formfields.scss';
+@import './details.scss';
+
+//Nav Header
+@import './layout';
+@import './headernavbar';
+
+//Auth Styles
+@import './auth/signin.scss';
+@import './auth/signup.scss';
+
+//Acct
+@import './account/account.scss';
+@import 'account/account-information.scss';
+@import './account/purchase-history.scss';
+
+//Shop
+@import './shop/shop.scss';
+@import './shop/shop-cart.scss';
+@import './shop/shop-searchbar.scss';
+@import './shop/shop-product.scss';
+@import './quantity.scss';
+@import './green-price-tag.scss';
+@import './order/review.scss';
+@import './order/reviewForm.scss';
+@import './order/reviewProduct.scss';
+@import './shop/cart-product.scss';
+
+//Info
+@import './information/infoHelp.scss';
+@import './information/payment.scss';
+@import './information/shipping.scss';
+
